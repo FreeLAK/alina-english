@@ -57,7 +57,7 @@ h3{font-size:21px;margin-bottom:10px}
 .media__label small{display:block;font-weight:400;font-size:12px;margin-top:4px;color:var(--pink)}
 .media img,.media video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;background:var(--gray-100)}
 .media:has(img),.media:has(video){border:0;background:none}
-.media--tall{aspect-ratio:4/5}
+.media--tall{aspect-ratio:4/3}
 .media--vibe{aspect-ratio:4/3}
 .media--review{aspect-ratio:3/4}
 .media--review:has(img){aspect-ratio:1/1;background:#2b2b31}
@@ -73,8 +73,8 @@ h3{font-size:21px;margin-bottom:10px}
 .hero__grid{display:grid;grid-template-columns:1.05fr .95fr;gap:52px;align-items:center}
 .hero__note{color:var(--gray-700);font-size:18px;margin-bottom:30px}
 .hero__buttons{display:flex;flex-wrap:wrap;gap:14px}
-.hero__visual{position:relative;padding-bottom:56px}
-.hero__visual .media--tall{width:82%}
+.hero__visual{position:relative}
+.hero__visual .media--tall{width:100%}
 .hero__visual .media--vibe{position:absolute;right:0;bottom:0;width:56%;border:6px solid var(--pink-bg)}
 .hero__visual .media--vibe:has(img){border-color:var(--pink-bg)}
 
@@ -166,5 +166,5 @@ h3{font-size:21px;margin-bottom:10px}
   .form__row{grid-template-columns:1fr}
   .approach{padding:26px 22px 26px 22px;font-size:18px}
   .approach::before{display:none}
-  .hero__visual .media--tall{width:78%}
+  .hero__visual .media--tall{width:100%}
 }
